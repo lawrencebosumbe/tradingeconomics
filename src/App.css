@@ -1,38 +1,63 @@
+
+/*
+------------------------------
+  App styles
+------------------------------
+ */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4{
+  margin-bottom: 25px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*
+------------------------------
+  Fields & Labels styles
+------------------------------
+ */
+
+.label-country2 {
+  margin-left: 15px;
+  margin-bottom: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-field-country2 {
+  margin-left: 15px;
+  margin-bottom: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+/*
+------------------------------
+  DataTable styles
+------------------------------
+ */
+
+table{
+  margin-top: 35px ;
+  margin-bottom: 35px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/*
+------------------------------
+  Plotting Chart styles
+------------------------------
+ */
+
+.chart-canvas{
+  margin-left: 7.5%;
+}
+
+.chart-card{
+  margin-bottom: 75px;
 }
